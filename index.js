@@ -1,8 +1,8 @@
 let express = require('express');
 let fs = require('fs')
 
-const Bot = require('./Bot');
-let app = express();
+const Bot = require('./app/Bot')
+let app = express()
 
 app.get('/', function (req, res) {
     let cookie = req.headers.cookie;

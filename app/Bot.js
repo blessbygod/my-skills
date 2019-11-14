@@ -4,7 +4,7 @@ class Bot extends BaseBot {
      * postData可以不传，由于DuerOS对bot是post请求，sdk默认自动获取
      */
     constructor(postData) {
-            super(postData);
+            super(postData)
 
             this.addLaunchHandler(() => {
                 return {

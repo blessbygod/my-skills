@@ -1,0 +1,10 @@
+{
+ "name": "my-skills",
+ "script": "index.js",
+ "watch": ["app", "conf"],
+ "exec_mode": "fork",
+ "watch_options" : {
+   "useFsEvents": false
+ }
+}
+
