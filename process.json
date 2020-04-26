@@ -1,10 +1,10 @@
 {
  "name": "my-skills",
  "script": "index.js",
- "watch": ["app", "conf"],
+ "watch": ["app", "conf", "index.js"],
  "exec_mode": "fork",
  "watch_options" : {
-   "useFsEvents": false
+   "useFsEvents": false,
+   "usePolling": true
  }
 }
-
